@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login System</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+	  <br><br>
+	  <div class="container">
+	  	<div class="row">
+			<div class="col-sm-3"></div>  
+			<div class="col-sm-6">
+			  <div class="well">
+					<h1 class="text-center">User Registration</h1><hr>
+					<form action="gct2.php" method="post" name="form1" id="form1">
+					  <p>
+					    <label for="uname">User Name:</label>
+					    <input name="name" type="text" required="required" class="form-control" id="uname">
+				      </p>
+					  <p>
+					    <label for="upwd">Password:</label>
+                        <input name="pwd" type="password" required="required" class="form-control" id="upwd">
+					  </p>
+					  <p>
+					    <label for="contact2">Contact:</label>
+					    <input name="contact" type="text" required="required" class="form-control" id="contact">
+					  </p>
+					  <p>
+					    <label for="addr2">Address:</label>
+					    <input name="addr" type="text" required="required" class="form-control" id="addr">
+					  </p>
+					  <p><hr>
+					    <input name="reset" type="reset" class="btn btn-info" id="reset" value="Reset">
+					    <input name="submit" type="submit" class="btn btn-primary" id="submit" value="Submit">
+						<a href="fetch.php" class="pull-right">Show All Record</a>
+					  </p>
+                </form>
+						
+				</div>
+			</div>  
+			<div class="col-sm-3"></div>  
+		</div>
+	  </div>
+	  
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+  </body>
+</html>
